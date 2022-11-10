@@ -8,13 +8,13 @@ i=0
 while [ $i -lt 1 ]
 do
 read x
-if [[ $x > $y ]];
+if [[ x -gt y ]];
 then
   echo "too high"
-elif [[ $x < $y ]]; then
+elif [[ x -lt y ]]; then
   echo "too low"
-elif [[ $x == $y ]]; then
-  echo "correct" 
-  i==1 
+elif [[ x -eq y ]]; then
+  echo "correct"
+  i==1
 fi
 done
