@@ -1,6 +1,6 @@
 # guessinggame.sh Project
 
-##This is my coursera Guessing game project
+## This is my coursera Guessing game project
 
 To start this programm simply type guessinggame.sh into your command line.
 
